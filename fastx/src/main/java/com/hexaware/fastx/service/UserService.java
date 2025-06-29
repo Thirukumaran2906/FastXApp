@@ -11,6 +11,5 @@ public interface UserService {
 
     User getUserByEmail(String email);
 
-    // 🔹 Add this new login method
     User login(String email, String password);
 }
